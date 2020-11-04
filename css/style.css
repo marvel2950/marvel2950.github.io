@@ -117,30 +117,30 @@ body
 {
     font-family:  "Lucida Console", Courier, monospace;
     color: #747070;
-    margin-left: 40px;
-    margin-top: 150px;
+    margin-left: 4rem;
+    margin-top: 15rem;
 }
 .intro .education h2
 {
     color: black;
-    font-size: 50px;
+    font-size: 5rem;
     
 }
 .intro .education h3
 {
     display: inline;
     color: black;
-    font-size: 30px;
+    font-size: 3rem;
     
 }
 .intro .education h4
 {
-    margin-top: 3px;
-    margin-bottom: 20px;
+    margin-top: 0.3 rem;
+    margin-bottom: 2rem;
 }
 .intro .education p
 {
-    margin-left: 130px;
+    margin-left: 13rem;
     display: inline;
     color: red;
     text-align: justify;
@@ -160,22 +160,22 @@ body
 {
     font-family:  "Lucida Console", Courier, monospace;
     color: #747070;
-    margin-top: 150px;
+    margin-top: 15rem;
 }
 .intro .skills h2
 {
-    margin-left: 40px;
+    margin-left: 4rem;
     color: black;
-    font-size: 50px;
+    font-size: 5rem;
 }
 .intro .skills ul
 {
     list-style-type: none;
-    margin-left: 20px;
+    margin-left: 2rem;
 }
 .intro .skills .list-items
 {
-    font-size: 20px;
+    font-size: 2rem;
 }
 
 /*Achivments CSS*/
@@ -184,22 +184,22 @@ body
 {
     font-family:  "Lucida Console", Courier, monospace;
     color: #747070;
-    margin-top: 150px;
+    margin-top: 15rem;
 }
 .intro .achivments h2
 {
-    margin-left: 40px;
+    margin-left: 4rem;
     color: black;
-    font-size: 50px;
+    font-size: 5rem;
 }
 .intro .achivments ul
 {
     list-style-type: none;
-    margin-left: 20px;
+    margin-left: 2rem;
 }
 .intro .achivments .list-items
 {
-    font-size: 20px;
+    font-size: 3rem;
 }
 
 /*Projects CSS*/
@@ -208,30 +208,30 @@ body
 {
     font-family:  "Lucida Console", Courier, monospace;
     color: #747070;
-    margin-top: 150px;
-    margin-left: 40px;
+    margin-top: 15rem;
+    margin-left: 4rem;
 }
 .intro .project h2
 {
     color: black;
-    font-size: 50px;
+    font-size: 5rem;
     
 }
 .intro .project h3
 {
     display: inline;
     color: black;
-    font-size: 30px;
+    font-size: 3rem;
     
 }
 .intro .project h4
 {
-    margin-top: 3px;
-    margin-bottom: 20px;
+    margin-top: 0.3rem;
+    margin-bottom: 2rem;
 }
 .intro .project h5
 {
-    margin-right: 40px;
+    margin-right: 4rem;
     text-align: justify;
 }
 
@@ -241,25 +241,25 @@ body
     font-family:  "Lucida Console", Courier, monospace;
     color: #747070;
     
-    margin-top: 150px;
+    margin-top: 15rem;
 }
 .intro .contact h2
 {
-    margin-left: 40px;
+    margin-left: 4rem;
     color: black;
-    font-size: 50px;
+    font-size: 5rem;
     
 }
 .intro .contact ul
 {
-    margin-left:10px;
+    margin-left:1rem;
     
     list-style-type: none;
     
 }
 .intro .contact ul .lis-items
 {
-    margin-top:5px;
-    font-size: 25px;
+    margin-top:0.5rem;
+    font-size: 2.5rem;
     
 }

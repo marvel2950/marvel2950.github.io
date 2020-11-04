@@ -4,33 +4,42 @@
     <head>
         <meta charset="UTF-8">
         <title>Portfolio</title>
-        <link rel="stylesheet" href="../css/style.css" type="text/css">
+        <link rel="stylesheet" href="../css/style.css">
 
         <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
         
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     </head>
 
     <body>
+            <div class="intro">
+                <div class="pos-f-t">
+                    <nav class="navbar navbar-dark header-list">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </nav>
+                    <div class="collapse" id="navbarToggleExternalContent">
+                        <div class="p-4 header-list">
+                            <ul class = "list-items">
+                                <a href = "index.html" ><li class = "list-item">ABOUT</li></a>
+                                <a href = "education.html" ><li class = "list-item">EDUCATION</li></a>
+                                <a href = "skills.html" ><li class = "list-item">SKILLS</li></a>
+                                <a href = "achivements.html" ><li class = "list-item">ACHIEVMENTS</li></a>
+                                <a href = "project.html" ><li class = "list-item">PROJECTS</li></a>
+                                <a href = "contact.html" ><li class = "list-item">CONTACT</li></a>
+                            </ul>
+                        </div>
+                    </div>
+        
+                </div>
 
-        <div class="intro">
-            <div class="header-list">
-                <ul class = "list-items">
-                    <br><br>
-                    <img src="../images/Profile photo.jpeg" alt="akarsh" class="dp">
-                    <br><br>
-                    <a href = "../index.html" ><li class = "list-item">ABOUT</li></a>
-                    <a href = "education.html" ><li class = "list-item">EDUCATION</li></a>
-                    <a href = "skills.html" ><li class = "list-item">SKILLS</li></a>
-                    <a href = "achivements.html" ><li class = "list-item">ACHIEVMENTS</li></a>
-                    <a href = "project.html" ><li class = "list-item">PROJECTS</li></a>
-                    <a href = "contact.html" ><li class = "list-item">CONTACT</li></a>
-                </ul>
-            </div>
-
-            <div class="project">
+            <div class="project container">
                 <h2>PROJECTS</h2><br>
                 <h3>Vadati - The Helping Hand</h3>
                 <h4>(Flex Sensor, Raspberry Pi,Kivy, Speech Recognition)</h4>
