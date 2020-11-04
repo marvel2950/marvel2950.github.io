@@ -123,27 +123,40 @@ body
 .intro .education h2
 {
     color: black;
-    font-size: 5rem;
+    font-size: 9rem;
     
 }
 .intro .education h3
 {
+    
     display: inline;
     color: black;
-    font-size: 3rem;
+    font-size: 5rem;
     
 }
 .intro .education h4
 {
+    padding-top:2rem;
+    margin-bottom: 2rem;
+    font-size: 4rem;
+}
+.intro .education h5,h6
+{
     margin-top: 0.3 rem;
     margin-bottom: 2rem;
+    font-size: 3rem;
+}
+.intro .education h6
+{
+    margin-top: 0.3 rem;
+    margin-bottom: 2rem;
+    font-size: 3rem;
 }
 .intro .education p
 {
-    margin-left: 13rem;
-    display: inline;
+    font-size: 2.5rem;
     color: red;
-    text-align: justify;
+    
 }
 .intro .education a
 {
