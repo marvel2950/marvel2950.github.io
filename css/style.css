@@ -66,10 +66,10 @@ body
 {
     font-weight: 700;
 }
-.list-items .list-item:active
+/* .list-items .list-item:active
 {
     font-weight: 700;
-}
+} */
 
 
 .intro .about p
