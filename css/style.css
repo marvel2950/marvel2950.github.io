@@ -77,7 +77,6 @@ body
     text-align: center;
     font-family:  "Lucida Console", Courier, monospace;   
     color: #747070;
-    /* margin-left: 2em; */
     font-size: 1.8rem;
 }
 .intro .about h1
@@ -87,8 +86,6 @@ body
     font-family:  "Lucida Console", Courier, monospace;
     color: #bd5d38;
     font-size: 6rem;
-    /* margin-top: 150px;
-    margin-left: 40px; */
     line-height: 1.0em;  
     font-weight: 700;
 }
