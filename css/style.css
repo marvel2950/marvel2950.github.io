@@ -12,7 +12,6 @@ body
     margin-left: auto;
     margin-right: auto;
     margin-top:5rem;
-    /* margin-left:12rem; */
     margin-bottom: 3rem;
     border-radius: 100%;
     border: 7px solid#c77b5e;
@@ -47,6 +46,10 @@ body
     color:white;
     font-family:  "Lucida Console", Courier, monospace;
 }
+.header-list button
+{
+    font-size: 3rem;
+}
 .list-items
 {
     list-style-type:none; 
@@ -66,10 +69,6 @@ body
 {
     font-weight: 700;
 }
-/* .list-items .list-item:active
-{
-    font-weight: 700;
-} */
 
 
 .intro .about p
@@ -89,10 +88,9 @@ body
     line-height: 1.0em;  
     font-weight: 700;
 }
-.social-icons
+.intro .about
 {
-    text-align: center;
-    margin-left: 40px;
+    align-items: center;
 }
 .social-icons .social-icon {
     display: inline-flex;
@@ -105,6 +103,11 @@ body
     border-radius: 100%;
     font-size: 1.5rem;
     margin-right: 1.5rem;
+}
+.social-icons
+{
+    margin-left: 4rem;
+    
 }
 .social-icons .social-icon:hover
 {
@@ -196,7 +199,7 @@ body
 
 .intro .achivments
 {
-    margin-left: 2rem;
+    margin-left: 5rem;
     font-family:  "Lucida Console", Courier, monospace;
     color: #747070;
     margin-top: 7rem;
