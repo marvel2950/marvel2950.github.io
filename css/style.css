@@ -32,7 +32,7 @@ body
 }
 .header-list-main
 {
-    font-size: 3rem;
+    font-size: 4rem;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -42,13 +42,7 @@ body
 }
 .header-list
 {
-    /* padding-top: 50px;
-    padding-bottom: 150px;
-    padding-right: 70px;
-    padding-left:30px;
-    list-style-type:none; */
     text-emphasis: none;
-    /* text-align: center; */
     background-color: #bd5d38!important;
     color:white;
     font-family:  "Lucida Console", Courier, monospace;
@@ -65,9 +59,8 @@ body
 .list-items a .list-item
 {
     color:white;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    font-size: large;
+    padding-bottom: 1rem;
+    font-size: 2rem;
 }
 .list-items .list-item:hover
 {
