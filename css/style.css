@@ -68,6 +68,7 @@ body
 .list-items .list-item:hover
 {
     font-weight: 700;
+    text-decoration: none;
 }
 
 
