@@ -206,6 +206,7 @@ body
 
 .intro .achivments
 {
+    margin-left: 2rem;
     font-family:  "Lucida Console", Courier, monospace;
     color: #747070;
     margin-top: 7rem;
@@ -218,11 +219,12 @@ body
 .intro .achivments ul
 {
     list-style-type: none;
-    margin-left: 1rem;
+    
     text-align: left;
 }
 .intro .achivments .lis-items
 {
+    margin-left: -2rem;
     font-size: 3.8rem;
     margin-bottom: 2rem;
 }
