@@ -30,6 +30,16 @@ body
     display: flex;
     flex-direction: column;
 }
+.header-list-main
+{
+    font-size: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: #bd5d38!important;
+    color:white;
+    font-family:  "Lucida Console", Courier, monospace;
+}
 .header-list
 {
     /* padding-top: 50px;
@@ -173,22 +183,23 @@ body
 {
     font-family:  "Lucida Console", Courier, monospace;
     color: #747070;
-    margin-top: 15rem;
+    margin-top: 7rem;
 }
 .intro .skills h2
 {
     margin-left: 4rem;
     color: black;
-    font-size: 5rem;
+    font-size: 9rem;
+    
 }
 .intro .skills ul
 {
     list-style-type: none;
     margin-left: 2rem;
 }
-.intro .skills .list-items
+.intro .skills .lis-items
 {
-    font-size: 2rem;
+    font-size: 3.8rem;
 }
 
 /*Achivments CSS*/
@@ -197,22 +208,23 @@ body
 {
     font-family:  "Lucida Console", Courier, monospace;
     color: #747070;
-    margin-top: 15rem;
+    margin-top: 7rem;
 }
 .intro .achivments h2
 {
-    margin-left: 4rem;
     color: black;
-    font-size: 5rem;
+    font-size: 7rem;
 }
 .intro .achivments ul
 {
     list-style-type: none;
-    margin-left: 2rem;
+    margin-left: 1rem;
+    text-align: left;
 }
-.intro .achivments .list-items
+.intro .achivments .lis-items
 {
-    font-size: 3rem;
+    font-size: 3.8rem;
+    margin-bottom: 2rem;
 }
 
 /*Projects CSS*/
@@ -221,13 +233,14 @@ body
 {
     font-family:  "Lucida Console", Courier, monospace;
     color: #747070;
-    margin-top: 15rem;
-    margin-left: 4rem;
+    margin-top: 7rem;
+    
 }
 .intro .project h2
 {
+    
     color: black;
-    font-size: 5rem;
+    font-size: 9rem;
     
 }
 .intro .project h3
@@ -258,14 +271,14 @@ body
 }
 .intro .contact h2
 {
-    margin-left: 4rem;
+    margin-left: 3rem;
     color: black;
-    font-size: 5rem;
+    font-size: 9rem;
     
 }
 .intro .contact ul
 {
-    margin-left:1rem;
+    margin-left:4rem;
     
     list-style-type: none;
     
