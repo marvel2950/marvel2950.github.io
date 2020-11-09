@@ -1,0 +1,119 @@
+.h1
+{
+    color:#31344B;
+    font-family: "Nunito Sans", "sans-serif";
+    font-weight: 400;
+    text-align:center;
+    padding-top: 2rem;
+    padding-bottom:2rem;
+}
+
+body
+{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.5;
+    text-align: left;
+    background-color: #e6e7ee!important;
+    font-family: "Nunito Sans", "sans-serif"!important;
+    overflow-x: hidden;
+}
+.shadow-inset {
+    box-shadow: inset 2px 2px 5px #b8b9be, inset -3px -3px 7px #FFFFFF !important;
+}
+.shadow-soft {
+    box-shadow: 6px 6px 12px #b8b9be, -6px -6px 12px #ffffff !important;
+}
+.button-input
+{
+    display: block;
+    color: #31344b!important;
+    background-color: #e6e7ee!important;
+    box-shadow: 3px 3px 6px #b8b9be, -3px -3px 6px #ffffff;
+    
+}
+
+/* ABOUT */
+.about-details h4
+{
+    font-size: 21px;
+    margin:20px;
+    color: #44476A!important;
+}
+.about-main
+{
+    padding-bottom:3rem;
+}
+
+/* EDUCATION */
+.education-main
+{
+    padding-bottom:3rem;
+}
+.education-details h2 a
+{
+    text-align: justify;
+    padding-left:auto;
+    padding-right: auto;
+    color:#31344B;
+    font-family: "Nunito Sans", "sans-serif";
+    text-decoration: none;
+}
+
+
+/* SKILLS */
+.skills-details
+{
+    margin: 2rem;
+}
+.skills-image img
+{
+    display: block;
+    
+    margin-left: auto;
+    margin-right: auto;
+}
+.skills-main
+{
+    padding-bottom:3rem;
+}
+.skills-list li
+{
+    text-align: left;
+    list-style: none;
+}
+.skills-list .lis-items
+{
+    font-size: 1.5rem;
+    margin-bottom:0.4rem;
+}
+
+.list-image
+{
+    width: auto;
+    height:3rem;
+}
+.skills
+{
+    padding:1.5rem;
+}
+
+
+/* CONTACT */
+label
+{
+    color: #31344b;
+}
+.form-input
+{
+    background-color: #e6e7ee !important;
+    box-shadow: inset 2px 2px 5px #b8b9be, inset -3px -3px 7px #FFFFFF !important;
+    color: #31344b
+}
+.contact-main
+{
+    padding-bottom:3rem;
+}
