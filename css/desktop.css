@@ -125,6 +125,10 @@ label
 }
 
 /* ACHIVEMENTS */
+.achivements-main
+{
+    padding-bottom: 3rem;
+}
 
 .achivements-image img
 {
@@ -169,4 +173,53 @@ label
 .projects img
 {
     background-color: black;;
+}
+
+
+
+/* FOOTER */
+
+
+
+
+.icon span, .icon svg {
+    font-size: 2.25rem;
+}
+
+
+
+footer .icon {
+    text-align: center;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn.btn-pill {
+    border-radius: 2rem;
+}
+.btn-icon-only {
+    position: relative;
+    width: 2.975rem;
+    height: 2.975rem;
+    padding: 0;
+}
+.btn {
+    border-color: #D1D9E6;
+    box-shadow: 3px 3px 6px #b8b9be, -3px -3px 6px #ffffff;
+}
+
+.btn {
+    border: 0.0625rem solid transparent;
+    border-radius: 0.55rem;
+    
+}
+
+.social-icon
+{
+    transform: scale(1.5);
+}
+footer img
+{
+    height:60px;
 }
