@@ -179,9 +179,6 @@ label
 
 /* FOOTER */
 
-
-
-
 .icon span, .icon svg {
     font-size: 2.25rem;
 }
@@ -236,6 +233,7 @@ footer img
 .intro-main .heading
 {
     padding-top:1rem;
+    padding-right: 3rem;;
     font-size: 3.5rem;
     text-align:center;
 }
@@ -285,4 +283,50 @@ footer img
     padding-top:3rem;
     padding-bottom:0rem;
     color: rgb(74, 75, 87);
+}
+
+/* HEADER */
+.header img
+{
+    height:60px;
+}
+.header-image
+{
+    margin-top:0.1rem;
+    margin-left: 3rem;
+   
+}
+.header-list
+{
+    padding-left:1rem!important;
+    padding-right:1rem!important;
+}
+.header-list a
+{
+    color:#44476A!important;
+    font-size:1.1rem!important;
+    padding-left:0.8rem!important;
+    padding-right:0.8rem!important;
+}
+.margin-space
+{
+    margin-left:1rem;
+}
+.header-list a:hover
+{
+    box-shadow: inset 2px 2px 5px #b8b9be, inset -3px -3px 7px #FFFFFF !important;
+    border-radius: 1rem;
+}
+.header ul {
+        margin-left: auto;
+        margin-right: auto;
+
+  }
+.header
+{
+    position: sticky!important;
+    top: 0!important;
+    width: 100%!important;
+    z-index: 100!important;
+    background-color:#e6e7ee;
 }
