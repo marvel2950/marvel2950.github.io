@@ -223,3 +223,66 @@ footer img
 {
     height:60px;
 }
+
+
+/* INTRO */
+.intro-image img
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:17rem;
+}
+.intro-main .heading
+{
+    padding-top:1rem;
+    font-size: 3.5rem;
+    text-align:center;
+}
+
+
+/* PROFESSION */
+.profession-details h4
+{
+    font-size: 21px;
+    margin:20px;
+    color: #44476A!important;
+}
+.profession-main 
+{
+    padding-bottom: 1rem;
+}
+
+.rounded-circle {
+    border-radius: 50% !important;
+}
+.border-light {
+    border-color: #D1D9E6 !important;
+}
+.border {
+    border: 0.0625rem solid #fafbfe !important;
+}
+.card-img-top {
+    width: 100%;
+}
+.profession-image img
+{
+    width:20rem;
+}
+.profession-margin
+{
+    margin:2rem;
+}
+.profession-details
+{
+    padding-top:1rem;
+    
+}
+.animation-text
+{
+    font-size:2.5rem;
+    text-align: center;
+    padding-top:3rem;
+    padding-bottom:0rem;
+    color: rgb(74, 75, 87);
+}
