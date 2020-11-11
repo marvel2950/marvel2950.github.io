@@ -54,17 +54,13 @@ body
 
 .h1
 {
-    
     display: block!important;
-    margin-left: auto!important;
-    margin-right: auto!important;
+    
     color:#31344B;
-    font-size: 6rem!important;
-    font-family: "Nunito Sans", "sans-serif";
+    font-size: 8rem!important;
     font-weight: 400;
-    text-align:center;
     padding-top: 2rem;
-    padding-bottom:2rem;
+    padding-bottom:5rem;
     padding-left:32rem;
     padding-right: auto;
 }
@@ -180,4 +176,176 @@ h1
 .about-shadow
 {
     width:100%;
+}
+
+
+/* SKILLS */
+.skills-details
+{
+    margin: 2rem;
+    min-width:55rem;
+    height:auto;
+    margin-bottom: 8rem;
+    padding:4rem;
+}
+.skills-image img
+{
+    margin-top:rem;
+    width:80rem;
+    margin-bottom:12rem;
+}
+.skills-main
+{
+    padding-bottom:3rem;
+}
+.skills-list li
+{
+    text-align: left;
+    list-style: none;
+}
+.skills-list .lis-items
+{
+    font-size: 7rem;
+    margin-bottom:0.4rem;
+}
+
+.list-image
+{
+    width: auto;
+    height:3rem;
+}
+.skills
+{
+    padding-left:14rem;
+}
+
+/* EDUCATION */
+.education-details h3
+{
+    font-size: 4.5rem;;
+    margin:3rem;
+    color: #44476A!important;
+}
+.education-details h4
+{
+    font-size: 3.8rem;;
+    margin:3rem;
+    color: #44476A!important;
+}
+.education-details h6
+{
+    font-size: 3rem;;
+    margin:2rem;
+    color: #44476A!important;
+}
+.education-details h2
+{
+    font-size: 5.5rem;;
+    margin:4rem;
+    color: #44476A!important;
+}
+.education-details p
+{
+    font-size: 3.8rem;;
+    margin-bottom: 4rem;
+    color: #44476A!important;
+}
+.education-main
+{
+    padding-bottom:10rem;
+}
+.education-details h2 a
+{
+    text-align: justify;
+    padding-left:auto;
+    padding-right: auto;
+    color:#31344B;
+    font-family: "Nunito Sans", "sans-serif";
+    text-decoration: none;
+}
+
+.education-image img
+{
+    width:80rem;
+    margin-bottom:10rem;
+}
+.education-details
+{
+    min-width:80rem;
+    height:80rem;
+}
+.education
+{
+    padding-bottom: 8rem;
+    padding-left: 5rem;;
+}
+.education-main .h1
+{
+    padding-left: 20rem!important;
+}
+
+
+* PROJECTS */
+
+.projects-card
+{
+    margin:2.50rem;
+}
+.projects img
+{
+    min-height:60rem;
+    background-color: black;;
+}
+
+.projects-card h3
+{
+    font-size: 4.5rem;;
+    margin:3rem;
+    color: #44476A!important;
+}
+.projects-card h5
+{
+    font-size: 3.8rem;;
+    margin:3rem;
+    color: #44476A!important;
+}
+
+.projects-card .icons
+{
+    font-size: 5.5rem;;
+    margin:4rem;
+    color: #44476A!important;
+}
+.projects-card p
+{
+    font-size: 3.8rem;;
+    margin-bottom: 4rem;
+    color: #44476A!important;
+}
+.projects-main
+{
+    padding-bottom:10rem;
+}
+
+
+.projects-image img
+{
+    width:80rem;
+    margin-bottom:10rem;
+}
+.projects-card
+{
+    margin-left:14rem;
+    min-width:60rem;
+    height:120rem;
+    margin-bottom:10rem;
+}
+.education
+{
+    padding-bottom: 8rem;
+    padding-left: 5rem;;
+}
+.projects-main .h1
+{
+    padding-left: 24rem!important;
 }
