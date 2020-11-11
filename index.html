@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
     <head>
@@ -21,11 +21,14 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
+     <!-- User defined JavaScript -->
+        <script src="javascript/script.js"></script> 
+
     </head>
 
     <body>
-	    <div id="top"></div>
-            <nav class="navbar navbar-expand-lg header">
+        <div id="top"></div>
+        <nav class="navbar navbar-expand-lg header" id="header">
                 <a class="shadow-soft rounded-circle  border border-light mr-lg-4 header-image" href="#top">
                     <img class="navbar-brand-light" src="images/bitmoji.png" alt="">
                 </a>
@@ -53,34 +56,41 @@
                     </ul>
                   
                 
-              </nav>
+        </nav>
         
         <!-- INTRO -->
         <div class="">
             <div id="intro" class="intro-main container">
-               
+                <br><br>
                 <div class=" row intro">
                     <div class="col-sm intro-image">
-                        <img src="images/intro.png" alt="intro">
-                    </div>        
+                        <a href="#profession">
+                            <img src="images/intro.png" alt="intro">
+                        </a>
+                        
+                    </div>  
+                        
                 </div> 
+                <div id="profession"></div>  
+                <br><br>
             
             </div>
         </div>
 
         <!-- PROFESSION -->
         <div class="">
-            <div id="profession" class="profession-main container">
-                
+            <div id="" class="profession-main container">
                 <div class=" row profession">
-                    
-        
-                    
                     <div class="text-center col-md-6 profession-details border-light shadow-soft rounded profession-margin">
-                        <div class="profession-animation">
-                            <div class="animation-text">What I do ?</div>
-                            <div id = "animation-text" class="animation-text">I'm a Frontend Developer.</div><hr>
-                        </div>
+                        <div class="profession-animation"><br>
+                            <div class="animation-text-1">What I do ?</div><br>
+                            <h1>
+                                <a href="" class="typewrite" data-period="2000" data-type='[ "I am a Frontend Developer.", "I am a Competitive Programmer.", "I am a Learner." ]'>
+                                  <span class="wrap"></span>
+                                </a>
+                            </h1>
+                        </div><hr>
+                        <br>
                         <ul class="d-flex justify-content-center list-unstyled mb-4">
                             <li class="m-2 mb-1">
                                 <a href="https://www.instagram.com/whoakarsh/" target="_blank" class="btn btn-icon-only btn-pill mr-3">
@@ -334,8 +344,14 @@
                                     <div class="card-body">
                                         <h3 class="card-title">Leetcode</h3>
                                         <p class="card-text">Gained 3 star on Leetcode after solving more than 200 problems with an average acceptance rate of 80%.</p>
+                                        <div class="space-line"></div>
+                                        <a href="https://leetcode.com/whoakarsh/" class="btn btn-light button-input" target="_blank">
+                                            View Profile
+                                        </a>
                                     </div>
+                                    
                                 </a>
+                                
                             </div>
                         </div>
                         <div class="col-md-3 achivements-card">
@@ -345,6 +361,10 @@
                                     <div class="card-body">
                                         <h3 class="card-title">HackerRank</h3>
                                         <p class="card-text">Gained wordwide rank of 2000 under problem solving after solving around 200 problems with 6 star batch.</p>
+                                        <div class="space-line"></div>
+                                        <a href="http://hackerrank.com/cs022_akarsh" class="btn btn-light button-input" target="_blank">
+                                            View Profile
+                                        </a>
                                     </div>
                                 </a>
                             </div>
@@ -356,6 +376,10 @@
                                     <div class="card-body">
                                         <h3 class="card-title">GeeksforGeeks</h3>
                                         <p class="card-text">Gained institute level rank 1 under Data Structures andd algorithm after solving around 200 problems.</p>
+                                        <div class="space-line"></div>
+                                        <a href="https://auth.geeksforgeeks.org/user/whoakarsh/practice/" class="btn btn-light button-input" target="_blank">
+                                            View Profile
+                                        </a>
                                     </div>
                                 </a>
                             </div>
@@ -366,6 +390,10 @@
                                     <div class="card-body">
                                         <h3 class="card-title">Ashraya - NGO</h3>
                                         <p class="card-text"> Founder of NGO Ashraya which helps people fighting with depression, anxiety issues by counselling them.</p>
+                                        <div class="space-line"></div>
+                                        <a href="https://facebook.com/ashraya_support" class="btn btn-light button-input" target="_blank">
+                                            View Profile
+                                        </a>
                                     </div>
                                 
                             </div>

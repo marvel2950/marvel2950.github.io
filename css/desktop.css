@@ -228,7 +228,7 @@ footer img
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width:17rem;
+    width:27rem;
 }
 .intro-main .heading
 {
@@ -265,7 +265,7 @@ footer img
 }
 .profession-image img
 {
-    width:20rem;
+    width:24rem;
 }
 .profession-margin
 {
@@ -273,17 +273,38 @@ footer img
 }
 .profession-details
 {
-    padding-top:1rem;
+    margin-top: 6.5rem;;
+    /* padding-top:1rem; */
+    height:18rem;
     
 }
-.animation-text
+.animation-text-1
 {
-    font-size:2.5rem;
+    
+    font-size:2.0rem;
     text-align: center;
-    padding-top:3rem;
-    padding-bottom:0rem;
     color: rgb(74, 75, 87);
 }
+.profession-main a:hover
+{
+    text-decoration: none;
+
+}
+.wrap
+{
+    font-size:2.0rem;
+    text-align: center;
+    color: rgb(74, 75, 87);
+}
+h1
+{
+    font-size:2.0rem;
+    text-align: center;
+    
+    color: rgb(74, 75, 87);
+}
+
+
 
 /* HEADER */
 .header img
@@ -330,3 +351,31 @@ footer img
     z-index: 100!important;
     background-color:#e6e7ee;
 }
+
+
+/* TypeWriter effect
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect 
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: rgb(74, 75, 87); }
+  } */
+
+ /* .animation-text
+{
+     display:block;
+    overflow: hidden;
+
+    font-size:2.5rem;
+     text-align: center; 
+     padding-top:3rem;
+    padding-bottom:0rem; 
+    color: rgb(74, 75, 87);
+    animation: 
+    typing 3.5s steps(60, end),
+    blink-caret .75s step-end infinite; 
+} */
