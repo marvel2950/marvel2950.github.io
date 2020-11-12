@@ -58,7 +58,36 @@ window.onload = function() {
     
 $(function() {
     $('#toggle-icon').click(function() {
-        $('#menu').show();
+        if($("#menu").is(":visible"))
+        {
+            $('#menu').hide();
+
+            $('.profession-id').show();
+            $('#about').show();
+            $('#skills').show();
+            $('#education').show();
+            $('#projects').show();
+            $('#achivements').show();
+            $('#contact').show();
+            $('#intro').show();
+            $('#footer').show();
+            
+        }
+        else
+        {
+            $('#menu').show();
+            
+            $('.profession-id').hide();
+            $('#about').hide();
+            $('#skills').hide();
+            $('#education').hide();
+            $('#projects').hide();
+            $('#achivements').hide();
+            $('#contact').hide();
+            $('#intro').hide();
+            $('#footer').hide();
+        }
+        
         return false;
     });        
 });
@@ -66,4 +95,13 @@ $(function() {
 
 function myFunction() {
     $('#menu').hide();
+    $('.profession-id').show();
+    $('#about').show();
+    $('#skills').show();
+    $('#education').show();
+    $('#projects').show();
+    $('#achivements').show();
+    $('#contact').show();
+    $('#intro').show();
+    $('#footer').show();
   }
