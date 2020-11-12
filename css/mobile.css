@@ -413,15 +413,20 @@ footer .social-icon
 .menu
 {
     margin-top:2rem;
+    font-size: 1.4rem;
+}
+.menu-details
+{
     max-width:90%;
-    min-height:90%;
-    max-height:90%;
-    font-size: 2rem;
+    max-height:25rem;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0%);
 }
 .menu .header-list
 {
     text-decoration: none;
-    padding:1rem;
+    padding:0.5rem;
 
 }
 .menu .header-list a
