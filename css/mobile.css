@@ -156,5 +156,111 @@ footer .social-icon
 {
     font-size: 1.5rem;
     border-radius: 100%;
+}
+
+
+/* INTRO */
+.intro-image img
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:20rem;
+}
+
+/* PROFESSION */
+.profession-main .social-icon
+{
+    font-size: 1.5rem;
+    border-radius: 100%;
+}
+.profession-main
+{
+    padding-top:3rem;
+    padding-bottom:5rem;
+    align-items: center;
+}
+.profession-main img
+{
+    margin-top:3rem;
+}
+.profession-details
+{
+    padding-top: 1rem;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    align-items: center;
+    max-width:20rem;
+}
+.animation-text-1
+{
+    font-size: 2rem;;
+}
+
+
+/* ABOUT */
+
+.about .button-input
+{
+    margin:0rem;
+    display: block;
+    color: #31344b!important;
+    font-size: 1rem!important;
+    background-color: #e6e7ee!important;
+    box-shadow: 3px 3px 6px #b8b9be, -3px -3px 6px #ffffff;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+.about-image img
+{
+    margin-top:-4rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    max-width: 20rem;
+}
+.about-details
+{
+    margin-top:-1rem;
+    margin:2rem;
+    margin-bottom:4rem;
+    padding-bottom: 4rem;;
+    max-height: auto;
+}
+.about h4
+{
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+/* SKILLS */
+.skills-image img
+{
     
+    margin-top:-4rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    max-width: 20rem;
+}
+.skills-details
+{
+    margin-left:3rem;
+    margin-right:3rem;
+    margin-top:1.5rem;
+    margin-bottom:1.5rem;
+}
+.skills-list{
+    font-size: 2rem;
+}
+.skills .lis-items img
+{
+    max-width:2rem;
+    
+}
+.skills-list li
+{
+    text-align: left;
+    list-style: none;
 }
