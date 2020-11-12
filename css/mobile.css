@@ -119,6 +119,7 @@ html,body
 .contact-details
 {
     margin:2rem;
+    margin-bottom:4rem;
 }
 .form-input
 {
@@ -146,14 +147,14 @@ footer img
 } 
 footer .icon
 {
-    font-size: 1.5rem;
+    margin-top:1rem;
+    font-size: 1.3rem;
     color:rgb(49, 55, 117);
     
 }
 footer .social-icon
 {
     font-size: 1.5rem;
-    color:rgb(49, 55, 117);
     border-radius: 100%;
     
 }
