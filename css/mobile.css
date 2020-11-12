@@ -405,3 +405,25 @@ footer .social-icon
     z-index: 100!important;
     background-color:#e6e7ee;
 }
+
+.menu
+{
+    margin-top:3rem;
+    max-width:90%;
+    min-height:90%;
+    max-height:90%;
+    font-size: 2rem;
+    display:none;
+}
+.menu .header-list
+{
+    padding:1rem;
+}
+.header-mobile img
+{
+    box-shadow: inset 2px 2px 5px #b8b9be, inset -3px -3px 7px #FFFFFF !important;
+    border-radius: 100%;
+    margin:1rem;
+    max-width:4rem;
+    max-height:4rem;
+} 
