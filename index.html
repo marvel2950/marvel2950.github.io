@@ -31,45 +31,40 @@
     <body>
         <div id="top"></div>
 
-
-
+        <!-- HEADER MOBILE -->
         <div class = "header-mobile">
             <a class="" href="#top">
                 <img class="" src="images/bitmoji.png">
             </a>
-            <a href="#menu" class="header-icon"><i class="fas fa-bars"></i></a>
+            <a href="#menu" class="header-icon" id="toggle-icon"><i class="fas fa-bars"></i></a>
         </div>
-        <div class="menu container">
+
+        <div class="menu container" id = "menu">
             <div class="text-center col-md-6 border-light shadow-soft rounded menu-details ">
                 <ul class="navbar-nav mr-auto">
                     <li class="header-list margin-space">
-                        <a class="nav-link" href="#about">ABOUT </a>
+                        <a class="nav-link" href="#about" onclick="myFunction()">ABOUT </a>
                     </li>
                     <li class="header-list">
-                        <a class="nav-link" href="#skills">SKILLS </a>
+                        <a class="nav-link" href="#skills" onclick="myFunction()">SKILLS </a>
                     </li>
                     <li class="header-list">
-                        <a class="nav-link" href="#education">EDUCATION </a>
+                        <a class="nav-link" href="#education" onclick="myFunction()">EDUCATION </a>
                     </li>
                     <li class="header-list">
-                        <a class="nav-link" href="#projects">PROJECTS </a>
+                        <a class="nav-link" href="#projects" onclick="myFunction()">PROJECTS </a>
                     </li>
                     <li class="header-list">
-                        <a class="nav-link" href="#achivements">ACHIVEMENTS </a>
+                        <a class="nav-link" href="#achivements" onclick="myFunction()">ACHIVEMENTS </a>
                     </li>
                     <li class="header-list">
-                        <a class="nav-link" href="#contact">CONTACT </a>
+                        <a class="nav-link" href="#contact" onclick="myFunction()">CONTACT </a>
                     </li>
                 </ul>      
             </div> 
         </div>
             
-        
-
-
-
-       
-
+        <!-- HEADER DESKTOP -->
         <nav class="navbar navbar-expand-lg header" id="header">
             <a class="shadow-soft rounded-circle  border border-light mr-lg-4 header-image" href="#top">
                 <img class="navbar-brand-light" src="images/bitmoji.png" alt="">
@@ -101,7 +96,7 @@
         <!-- INTRO -->
         <div class="">
             <div id="intro" class="intro-main container">
-                <br class="disp"><br class="disp">
+                <br class="disp"><br>
                 <div class=" row intro">
                     <div class="col-sm intro-image">
                         <a href="#profession">
@@ -112,6 +107,7 @@
                         
                 </div> 
                 <div id="profession"></div>  
+                <br class="mobile-space">
                 <br><br>
             
             </div>
@@ -164,6 +160,7 @@
         </div>
 
         <!-- ABOUT -->
+        
         <div class="shadow-inset" id="about" >
             <div class="about-main container">
                 <br><br>

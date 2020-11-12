@@ -40,7 +40,7 @@ html,body
     color:#31344B;
     font-size: 2.5rem!important;
     font-weight: 400;
-    padding-top: 2rem;
+    padding-top: 3rem;
     padding-bottom:5rem;
     align-items: center;
 }
@@ -441,15 +441,15 @@ footer .social-icon
     box-shadow: inset 2px 2px 5px #b8b9be, inset -3px -3px 7px #FFFFFF !important;
     border-radius: 100%;
     margin:1rem;
-    max-width:4rem;
-    max-height:4rem;
+    max-width: 3rem;
+    max-height:3rem;
 } 
 .header-mobile a
 {
     
     text-decoration: none;
     color:black;
-    font-size: 2.5rem;
+    font-size: 2rem;
 }
 .header-mobile .header-icon
 {
@@ -467,5 +467,5 @@ footer .social-icon
 {
     text-decoration: none;
     color:black;
-    font-size: 2.5rem;
+    font-size: 2rem;
 }

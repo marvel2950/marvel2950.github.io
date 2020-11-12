@@ -54,3 +54,16 @@ window.onload = function() {
     css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff;color: rgb(74, 75, 87);font-size:2.0rem;text-decoration: none!important;}";
     document.body.appendChild(css);
 };
+
+    
+$(function() {
+    $('#toggle-icon').click(function() {
+        $('#menu').show();
+        return false;
+    });        
+});
+
+
+function myFunction() {
+    $('#menu').hide();
+  }
