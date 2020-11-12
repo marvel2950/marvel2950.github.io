@@ -167,6 +167,10 @@ footer .social-icon
     margin-right: auto;
     width:20rem;
 }
+.disp
+{
+    display:none;
+}
 
 /* PROFESSION */
 .profession-main .social-icon
@@ -408,16 +412,23 @@ footer .social-icon
 
 .menu
 {
-    margin-top:3rem;
+    margin-top:2rem;
     max-width:90%;
     min-height:90%;
     max-height:90%;
     font-size: 2rem;
-    display:none;
 }
 .menu .header-list
 {
+    text-decoration: none;
     padding:1rem;
+
+}
+.menu .header-list a
+{
+    color:#44476A!important;
+    padding-left:0.8rem!important;
+    padding-right:0.8rem!important;
 }
 .header-mobile img
 {
