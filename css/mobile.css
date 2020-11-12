@@ -152,6 +152,13 @@ footer .icon
     color:rgb(49, 55, 117);
     
 }
+footer .icons
+{
+    margin-top: -3rem;
+    font-size: 2rem;
+    color:rgb(49, 55, 117);
+    
+}
 footer .social-icon
 {
     font-size: 1.5rem;
@@ -264,6 +271,10 @@ footer .social-icon
 }
 .skills-list{
     font-size: 1.5rem;
+}
+.skills .lis-items
+{
+    padding:0.4rem;    
 }
 .skills .lis-items img
 {
@@ -407,6 +418,8 @@ footer .social-icon
     top: 0!important;
     width: 100%!important;
     z-index: 100!important;
+    background-color: #e6e7ee!important;
+
 }
 
 .menu
