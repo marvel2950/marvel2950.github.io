@@ -180,6 +180,13 @@ footer .social-icon
     padding-bottom:5rem;
     align-items: center;
 }
+.animation-text-1
+{
+    
+    font-size:2.0rem;
+    text-align: center;
+    color: rgb(74, 75, 87);
+}
 .profession-main img
 {
     margin-top:3rem;
@@ -252,7 +259,7 @@ footer .social-icon
     margin-bottom:1.5rem;
 }
 .skills-list{
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 .skills .lis-items img
 {
@@ -267,4 +274,134 @@ footer .social-icon
 .skills-main
 {
     padding-bottom:3rem;
+}
+
+
+/* PROJECTS */
+.projects-main
+{
+    padding-bottom:2rem;
+}
+.projects-image img
+{
+    margin-top: -4rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.projects-card
+{
+    margin:2.50rem;
+}
+.projects img
+{
+    background-color: black;;
+}
+.projects .button-input
+{
+    margin:0rem;
+    display: block;
+    color: #31344b!important;
+    font-size: 1rem!important;
+    background-color: #e6e7ee!important;
+    box-shadow: 3px 3px 6px #b8b9be, -3px -3px 6px #ffffff;
+}
+
+.projects-image img
+{
+    margin-top:-4rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    max-width: 20rem;
+}
+.projects h3
+{
+    font-size: 2.0rem;
+    text-align: center;
+}
+.projects h5
+{
+    font-size: 1.4rem;
+    text-align: center;
+}
+.projects p
+{
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+/* ABOUT */
+
+.education .button-input
+{
+    margin:0rem;
+    display: block;
+    color: #31344b!important;
+    font-size: 1rem!important;
+    background-color: #e6e7ee!important;
+    box-shadow: 3px 3px 6px #b8b9be, -3px -3px 6px #ffffff;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+.education-image img
+{
+    margin-top:-4rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    max-width: 20rem;
+}
+.education-details
+{
+    margin-top:-1rem;
+    margin:2rem;
+    margin-bottom:4rem;
+    padding-bottom: 4rem;;
+    max-height: auto;
+}
+.education h4
+{
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.education-details h2 a
+{
+    text-align: justify;
+    padding-left:auto;
+    padding-right: auto;
+    color:#31344B;
+    font-family: "Nunito Sans", "sans-serif";
+    text-decoration: none;
+}
+.education-details h2
+{
+    font-size: 1.8rem;
+    text-align: center;
+    padding-left:auto;
+    padding-right: auto;
+    color:#31344B;
+    font-family: "Nunito Sans", "sans-serif";
+    text-decoration: none;
+}
+.education-details h3
+{
+    font-size:1.4rem;
+
+}
+
+
+/* HEADER */
+#header
+{
+    display: none;
+}
+.header-mobile
+{
+    position: sticky!important;
+    top: 0!important;
+    width: 100%!important;
+    z-index: 100!important;
+    background-color:#e6e7ee;
 }
