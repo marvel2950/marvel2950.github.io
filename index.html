@@ -27,30 +27,8 @@
         <script src="javascript/script.js"></script> 
 
         <!-- Email JS Free email service -->
-        <script type="text/javascript"src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
         
-        <script type="text/javascript">
-            (function() {
-                
-            emailjs.init('user_mXdQV47fKgmgDzcJm0fT0');
-            })();
-        </script>
-
-        <script type="text/javascript">
-            window.onload = function() {
-                document.getElementById('contact-form').addEventListener('submit', function(event) {
-                    event.preventDefault();
-                    // generate a five digit number for the contact_number variable
-                    // these IDs from the previous steps
-                    emailjs.sendForm('contact_service', 'contact_form', this)
-                        .then(function() {
-                            console.log('SUCCESS!');
-                        }, function(error) {
-                            console.log('FAILED...', error);
-                        });
-                });
-            }
-        </script>
+        
 
     </head>
 
@@ -502,7 +480,7 @@
                                 <label>Message</label>
                                 <textarea class="form-control form-input" id="message" rows="3" placeholder="Enter your message here..." name="message"></textarea>
                             </div>
-                            <button type="submit" value="Send" class="btn btn-light button-input">Send</button>
+                            <input type="submit" value="Send" class="btn btn-light button-input" onclick="sendEmail()">
                         </form>
                         <br>
                     </div>             
