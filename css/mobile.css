@@ -99,6 +99,12 @@ html,body
 
 
 /* CONTACTS */
+
+.contact-main
+{
+    text-align: center;
+
+}
 .contact .button-input
 {
     margin:1rem;
@@ -127,7 +133,11 @@ html,body
     box-shadow: inset 2px 2px 5px #b8b9be, inset -3px -3px 7px #FFFFFF !important;
     color: #31344b;
 }
+#contact-form
+{
+    text-align: left;
 
+}
 .contact-details form
 {
     display: block;
@@ -252,8 +262,14 @@ footer .social-icon
     font-size: 1.3rem;
     text-align: center;
 }
+.about-main
+{
+    text-align: center;
+}
 
 /* SKILLS */
+
+
 .skills-image img
 {
     
@@ -288,6 +304,7 @@ footer .social-icon
 }
 .skills-main
 {
+    text-align: center;
     padding-bottom:3rem;
 }
 
@@ -345,8 +362,13 @@ footer .social-icon
     text-align: center;
 }
 
-/* ABOUT */
+/* EDUCATION */
 
+.education-main
+{
+    text-align: center;
+
+}
 .education .button-input
 {
     margin:0rem;
