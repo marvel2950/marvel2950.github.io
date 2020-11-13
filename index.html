@@ -32,7 +32,7 @@
         <script type="text/javascript">
             (function() {
                 
-
+                contact_service
             emailjs.init('user_mXdQV47fKgmgDzcJm0fT0');
             })();
         </script>
@@ -43,7 +43,7 @@
                     event.preventDefault();
                     // generate a five digit number for the contact_number variable
                     // these IDs from the previous steps
-                    emailjs.sendForm('contact_service', 'contact-form', this)
+                    emailjs.sendForm('contact_service', 'contact_form', this)
                         .then(function() {
                             console.log('SUCCESS!');
                         }, function(error) {
