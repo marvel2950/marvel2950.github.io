@@ -42,7 +42,7 @@
                     // generate a five digit number for the contact_number variable
                     this.contact_number.value = Math.random() * 100000 | 0;
                     // these IDs from the previous steps
-                    emailjs.sendForm('contact_service', 'contact_form', this)
+                    emailjs.sendForm('contact_service', 'contact-form', this)
                         .then(function() {
                             console.log('SUCCESS!');
                         }, function(error) {
@@ -503,7 +503,7 @@
                                 <label>Message</label>
                                 <textarea class="form-control form-input" id="message" rows="3" placeholder="Enter your message here..." name="message"></textarea>
                             </div>
-                            <button type="submit" value="send" class="btn btn-light button-input">Send</button>
+                            <button type="submit" value="Send" class="btn btn-light button-input">Send</button>
                         </form>
                         <br>
                     </div>             
