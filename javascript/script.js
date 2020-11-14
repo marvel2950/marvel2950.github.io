@@ -39,6 +39,12 @@ TxtType.prototype.tick = function() {
     }, delta);
 };
 
+(function() {
+    // https://dashboard.emailjs.com/admin/integration
+    emailjs.init("user_mXdQV47fKgmgDzcJm0fT0");
+})();
+
+
 window.onload = function() {
     var elements = document.getElementsByClassName('typewrite');
     for (var i=0; i<elements.length; i++) {
@@ -53,6 +59,18 @@ window.onload = function() {
     css.type = "text/css";
     css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff;color: rgb(74, 75, 87);font-size:2.0rem;text-decoration: none!important;}";
     document.body.appendChild(css);
+
+    //Email JS
+    document.getElementById('contact-form').addEventListener('submit', function(event) {
+        event.preventDefault();
+        // these IDs from the previous steps
+        emailjs.sendForm('default_service', 'contact_form', this)
+            .then(function() {
+                console.log('SUCCESS!');
+            }, function(error) {
+                console.log('FAILED...', error);
+            });
+    });
 };
 
     
@@ -105,3 +123,5 @@ function myFunction() {
     $('#intro').show();
     $('#footer').show();
   }
+
+
