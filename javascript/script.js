@@ -1,3 +1,4 @@
+//Typewriter
 var TxtType = function(el, toRotate, period) {
     this.toRotate = toRotate;
     this.el = el;
@@ -39,6 +40,8 @@ TxtType.prototype.tick = function() {
     }, delta);
 };
 
+
+//Email JS
 (function() {
     // https://dashboard.emailjs.com/admin/integration
     emailjs.init("user_mXdQV47fKgmgDzcJm0fT0");
@@ -46,6 +49,7 @@ TxtType.prototype.tick = function() {
 
 
 window.onload = function() {
+    //Typewriter
     var elements = document.getElementsByClassName('typewrite');
     for (var i=0; i<elements.length; i++) {
         var toRotate = elements[i].getAttribute('data-type');
@@ -67,13 +71,14 @@ window.onload = function() {
         emailjs.sendForm('default_service', 'contact_form', this)
             .then(function() {
                 console.log('SUCCESS!');
+                document.getElementById('contact-image-toggle').src='./images/contact_reply.png';
             }, function(error) {
                 console.log('FAILED...', error);
             });
     });
 };
 
-    
+//Toggle button 
 $(function() {
     $('#toggle-icon').click(function() {
         if($("#menu").is(":visible"))
