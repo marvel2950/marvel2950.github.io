@@ -72,6 +72,8 @@ window.onload = function() {
             .then(function() {
                 console.log('SUCCESS!');
                 document.getElementById('contact-image-toggle').src='./images/contact_reply.png';
+                window.location.href='#contact';
+
             }, function(error) {
                 console.log('FAILED...', error);
             });
