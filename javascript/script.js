@@ -76,6 +76,8 @@ window.onload = function() {
 
             }, function(error) {
                 console.log('FAILED...', error);
+                document.getElementById('contact-image-toggle').src='./images/contact_fail.png';
+                window.location.href='#contact';
             });
     });
 };
