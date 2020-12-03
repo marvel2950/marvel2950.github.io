@@ -36,6 +36,7 @@ body
     
 }
 
+
 /* ABOUT */
 .about-details h4
 {
@@ -157,6 +158,14 @@ label
 }
 
 /* PROJECTS */
+.projects-card
+{
+    margin:2.4rem;
+}
+.projects
+{
+    text-align: center!important;
+}
 .projects-main
 {
     padding-bottom:1rem;
@@ -168,10 +177,15 @@ label
     margin-left: auto;
     margin-right: auto;
 }
-.projects-card
+.project-tile
 {
-    margin:2.50rem;
+    width: 115%!important;
+    display: block!important;
+    margin-left: auto!important;
+    margin-right: auto!important;
+    /* margin:2.50rem; */
 }
+
 .projects img
 {
     background-color: black;;
@@ -332,8 +346,8 @@ h1
 }
 .header-list
 {
-    padding-left:1rem!important;
-    padding-right:1rem!important;
+    padding-left:0.5rem!important;
+    padding-right:0.5rem!important;
 }
 .header-list a
 {
@@ -349,7 +363,7 @@ h1
 .header-list a:hover
 {
     box-shadow: inset 2px 2px 5px #b8b9be, inset -3px -3px 7px #FFFFFF !important;
-    border-radius: 1rem;
+    border-radius: 0.7rem;
 }
 .header ul {
         margin-left: auto;
@@ -365,30 +379,3 @@ h1
     background-color:#e6e7ee;
 }
 
-
-/* TypeWriter effect
-@keyframes typing {
-    from { width: 0 }
-    to { width: 100% }
-  }
-  
-  /* The typewriter cursor effect 
-  @keyframes blink-caret {
-    from, to { border-color: transparent }
-    50% { border-color: rgb(74, 75, 87); }
-  } */
-
- /* .animation-text
-{
-     display:block;
-    overflow: hidden;
-
-    font-size:2.5rem;
-     text-align: center; 
-     padding-top:3rem;
-    padding-bottom:0rem; 
-    color: rgb(74, 75, 87);
-    animation: 
-    typing 3.5s steps(60, end),
-    blink-caret .75s step-end infinite; 
-} */
