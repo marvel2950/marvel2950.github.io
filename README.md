@@ -1,5 +1,5 @@
 <h1>AnimatedPortfolio</h1>
-<h2><u>Live Project Link</u> :-  https://whoakarsh.github.io/ </h2>
+<h2><u>Live Project Link</u> :-  https://marvel2950.github.io/ </h2>
 <h4>A fully responsive portfolio designed using extensive use of Bitmojis, box-shadow property and css animations.</h4>
 
 <h4>Tools used :-

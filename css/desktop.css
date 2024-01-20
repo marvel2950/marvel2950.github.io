@@ -40,14 +40,21 @@ body
 /* ABOUT */
 .about-details h4
 {
-    font-size: 21px;
-    margin:20px;
+    font-size: 23.5px;
+    margin:23px;
     color: #44476A!important;
+    text-align: justify;
+    line-height: 1.5;
 }
 .about-main
 {
     padding-bottom:3rem;
 }
+
+.button-about{
+    font-size: 22px!important; 
+}
+
 
 /* EDUCATION */
 .education-main
@@ -63,9 +70,22 @@ body
     font-family: "Nunito Sans", "sans-serif";
     text-decoration: none;
 }
+.education-details{
+    padding: 20px;
+}
 
 
 /* SKILLS */
+.skill2-details h4
+{
+    font-size: 21px;
+    margin:15px;
+    color: #44476A!important;
+    text-align: justify;
+    line-height: 1.5;
+    padding: 2rem;
+}
+
 .skills-details
 {
     margin: 2rem;
